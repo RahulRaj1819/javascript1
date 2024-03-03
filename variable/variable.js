@@ -24,3 +24,12 @@ let isLoggedIn =false
 console.log(typeof null); //object
 console.log(typeof undefined); // undefined
 
+//
+let score ="175abc"
+console.log(typepf score); //string
+console.log(typeof score); //string
+
+let valueInNumber = Number(score)
+console.log(typeof valueInNumber); //Number
+console.log(valueInNumber); //NaN 
+
